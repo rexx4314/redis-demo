@@ -1,0 +1,9 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### (1) set
+GET http://localhost:8080/redis/set?key=hello&value=world
+
+### (2) get
+GET http://localhost:8080/redis/get?key=hello
